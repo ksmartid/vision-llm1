@@ -13,6 +13,10 @@ uv venv venv_jupyter
 
 uv venv venv_jupyter --python 3.10 --system-site-packages
 
+============= 윈도우즈 =========
+source venv_jupyter/Scripts/activate
+============= 윈도우즈 =========
+
 uv pip install --python venv_jupyter/bin/python jupyter ipykernel notebook ipywidgets imutils
 
 uv pip install --python venv_jupyter/bin/python "matplotlib-inline<0.2"
