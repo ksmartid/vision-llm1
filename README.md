@@ -9,6 +9,7 @@ winget install --id Git.Git -e --source winget
 git clone https://github.com/ksmartid/vision-llm1.git
 
 cd vision-llm1
+uv venv venv_jupyter
 
 uv venv venv_jupyter --python 3.10 --system-site-packages
 
